@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕵️‍♂️ Analise Perfil Profissional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🕵️‍♂️ Analise Perfil Profissional</h1>
+            <p class="description">Escolha a alternativa que melhor descreve sua reação em cada situação:</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-text">Pergunta <span id="currentQuestion">1</span> de <span id="totalQuestions">10</span></div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="progress-text" id="progressPercent">0%</div>
+        </div>
+        
+        <form id="assessmentForm">
+            <!-- As perguntas serão inseridas aqui dinamicamente -->
+        </form>
+        
+        <div class="navigation">
+            <button class="btn btn-secondary" id="prevBtn">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+                Anterior
+            </button>
+            <button class="btn" id="nextBtn">
+                Próxima
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Analisando seu perfil profissional...</p>
+        </div>
+        
+        <div class="results-container" id="resultsContainer">
+            <!-- Os resultados serão inseridos aqui dinamicamente -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
