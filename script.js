@@ -164,29 +164,30 @@ const questions = [
         }
     ]
 },
-    {
-        id: 8,
-        title: "8. O que mais te irrita numa Fila de Banco?",
-        scenario: "O que mais te irrita numa fila de banco?",
-        options: [
-            {
-                text: "A burocracia. O gerente pedir 3 cópias autenticadas de um documento que o próprio banco emitiu e demorar 45 minutos para 'analisar o sistema'.",
-                letter: "a"
-            },
-            {
-                text: "A logística. A fila estar mal organizada, o totem de senha estar quebrado e só 2 dos 8 guichês estarem funcionando em horário de pico.",
-                letter: "b"
-            },
-            {
-                text: "A desumanidade. O caixa de atendimento preferencial estar fechado e uma senhora grávida estar em pé na fila normal há 30 minutos.",
-                letter: "c"
-            },
-            {
-                text: "A comunicação. A falta de música ambiente, o sistema de som da senha estar mudo e o gerente não dar uma satisfação sobre a demora.",
-                letter: "d"
-            }
-        ]
-    },
+    
+  {
+    id: 8,
+    title: "8. O que mais te irrita numa Fila de Banco?",
+    scenario: "Você está há 20 minutos esperando na fila. O que realmente acaba com o seu humor?",
+    options: [
+        {
+            text: "Ter que preencher à mão uma ficha de papel com exatamente os mesmos dados que você já preencheu 500 vezes no aplicativo, e o gerente dizer 'senhor(a), é o protocolo'.",
+            letter: "a"
+        },
+        {
+            text: "Olhar para os 8 guichês de atendimento, ver que só 2 estão funcionando em pleno horário de pico, e a fila simplesmente não andar. É uma ineficiência física que dói na alma.",
+            letter: "b"
+        },
+        {
+            text: "O segurança ser grosseiro com um idoso na porta giratória, ou ver pessoas em pé há horas (gestantes, idosos) enquanto o 'atendimento exclusivo' está vazio. É a falta de bom senso e empatia.",
+            letter: "c"
+        },
+        {
+            text: "A total falta de informação. O painel de senhas está travado, ninguém sabe a ordem, o gerente não dá uma satisfação sobre a demora e o 'rádio-peão' de clientes irritados é a única fonte de notícia.",
+            letter: "d"
+        }
+    ]
+},          
     {
         id: 9,
         title: "9. Seu Papel em Stranger Things",
