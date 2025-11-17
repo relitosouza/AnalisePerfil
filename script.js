@@ -93,29 +93,31 @@ const questions = [
             }
         ]
     },
+    
     {
-        id: 5,
-        title: "5. Seu Papel em The Office",
-        scenario: "Se você trabalhasse na Dunder Mifflin, você seria:",
-        options: [
-            {
-                text: "A Angela Martin. Focada nos números, nas regras do 'Comitê de Festas' e em garantir que todos sigam os protocolos (mesmo que você não siga).",
-                letter: "a"
-            },
-            {
-                text: "O Dwight Schrute. Focado na segurança do prédio, na eficiência dos processos e em 'fazer o trabalho duro' (mesmo que seja plantar beterraba).",
-                letter: "b"
-            },
-            {
-                text: "A Pam Beesly. A pessoa que ouve os problemas de todos, tenta ajudar o Michael a ser uma pessoa melhor e cuida do bem-estar da recepção.",
-                letter: "c"
-            },
-            {
-                text: "O Jim Halpert. O cara que mantém o moral da equipe (com pegadinhas), articula as vendas e sabe conversar com todo mundo para fazer a coisa andar.",
-                letter: "d"
-            }
-        ]
-    },
+    id: 5,
+    title: "5. Seu Papel em The Office",
+    scenario: "Se você trabalhasse na Dunder Mifflin, você seria:",
+    options: [
+        {
+            text: "A <a href='https://pt.wikipedia.org/wiki/Angela_Martin' target='_blank'>Angela Martin</a>. Focada nos números, nas regras do 'Comitê de Festas' e em garantir que todos sigam os protocolos (mesmo que você não siga).",
+            letter: "a"
+        },
+        {
+            text: "O <a href='https://pt.wikipedia.org/wiki/Dwight_Schrute' target='_blank'>Dwight Schrute</a>. Focado na segurança do prédio, na eficiência dos processos e em 'fazer o trabalho duro' (mesmo que seja plantar beterraba).",
+            letter: "b"
+        },
+        {
+            text: "A <a href='https://pt.wikipedia.org/wiki/Pam_Beesly' target='_blank'>Pam Beesly</a>. A pessoa que ouve os problemas de todos, tenta ajudar o Michael a ser uma pessoa melhor e cuida do bem-estar da recepção.",
+            letter: "c"
+        },
+        {
+            text: "O <a href='https://pt.wikipedia.org/wiki/Jim_Halpert' target='_blank'>Jim Halpert</a>. O cara que mantém o moral da equipe (com pegadinhas), articula as vendas e sabe conversar com todo mundo para fazer a coisa andar.",
+            letter: "d"
+        }
+    ]
+},            
+                
     {
         id: 6,
         title: "6. Trabalho em Grupo da Faculdade",
