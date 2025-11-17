@@ -234,7 +234,76 @@ const questions = [
                 letter: "d"
             }
         ]
-    }
+    },
+    {
+    id: 11,
+    title: "11. O Colega Novato está com Dificuldades",
+    scenario: "Um novo funcionário entra na sua repartição. Ele parece visivelmente perdido e sobrecarregado na primeira semana. Qual sua reação mais provável?",
+    options: [
+        {
+            text: "'Vou verificar se ele recebeu o Manual de Procedimentos Internos. Se ele seguir o manual, vai se achar. O processo existe para isso.'",
+            letter: "a"
+        },
+        {
+            text: "'Ele precisa aprender na marra. Eu vou passar mais duas tarefas para ele. É o melhor jeito de forçá-lo a aprender rápido e ver se ele aguenta o tranco.'",
+            letter: "b"
+        },
+        {
+            text: "'Eu chamo ele para tomar um café. Pergunto como ele está se sentindo, digo que o começo é assim mesmo e me coloco à disposição para ajudar. O mais importante é ele se sentir acolhido.'",
+            letter: "c"
+        },
+        {
+            text: "'Eu apresento ele para o pessoal-chave de outros setores. O importante é ele fazer networking e entender quem manda em cada área para conseguir desenrolar o trabalho dele.'",
+            letter: "d"
+        }
+    ]
+},
+{
+    id: 12,
+    title: "12. Decisão sobre o Orçamento Extra da Equipe",
+    scenario: "O chefe anuncia que há uma pequena verba extra para o departamento este ano. O que você sugere fazer com o dinheiro?",
+    options: [
+        {
+            text: "'Vamos comprar um software novo de gestão de processos ou uma impressora melhor. Precisamos de ferramentas que aumentem nossa conformidade e precisão.'",
+            letter: "a"
+        },
+        {
+            text: "'Vamos dar um bônus de performance para quem produziu mais. Temos que recompensar quem bateu a meta e entregou mais rápido.'",
+            letter: "b"
+        },
+        {
+            text: "'Que tal melhorar a sala de café? Comprar cadeiras mais confortáveis ou investir num pequeno Espaço de Descompressão? Um ambiente de trabalho melhor aumenta o bem-estar de todos.'",
+            letter: "c"
+        },
+        {
+            text: "'Vamos usar esse dinheiro para fazer uma grande festa de confraternização ou um happy hour para celebrar o time e fortalecer os laços da equipe.'",
+            letter: "d"
+        }
+    ]
+},
+{
+    id: 13,
+    title: "13. O Projeto Anual de Responsabilidade Social",
+    scenario: "A prefeitura pede que cada secretaria indique um representante para o Projeto Social do ano (Ex: Campanha do Agasalho, visita a orfanatos). Sua reação:",
+    options: [
+        {
+            text: "'Eu me voluntario, desde que eu possa ser o responsável pela auditoria e controle do estoque de doações. Alguém precisa garantir que tudo seja feito com transparência.'",
+            letter: "a"
+        },
+        {
+            text: "'Eu me voluntario para o dia D. Deixa comigo a logística de carregar os caminhões e garantir que as entregas sejam feitas no menor tempo possível.'",
+            letter: "b"
+        },
+        {
+            text: "'Eu me voluntario na hora! Eu quero ajudar a organizar, a ouvir as pessoas que serão ajudadas e a garantir que a ação seja feita com dignidade e carinho, não só como obrigação.'",
+            letter: "c"
+        },
+        {
+            text: "'Eu me voluntario para ser o Embaixador do projeto. Deixa comigo a divulgação, a articulação com a imprensa e a organização do evento de lançamento.'",
+            letter: "d"
+        }
+    ]
+}
 ];
 
 // Estado do formulário
