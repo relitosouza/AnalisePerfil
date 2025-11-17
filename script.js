@@ -24,29 +24,29 @@ const questions = [
         ]
     },
     
-             {
+  {
     id: 2,
     title: "2. O Apocalipse de Fim de Mês na Contabilidade",
-    scenario: "É dia 25, fim do mês. A mesa do chefe está empilhada de processos para pagar e o telefone não para de tocar. Ele grita: 'SOCORRO! A fila de empenho e liquidação está gigante e o pessoal do Bolsa Aluguel está ligando!' Qual é a sua reação imediata?",
+    scenario: "É dia 25, fim do mês. A conciliação bancária não fecha por R$ 0,15, a receita própria está atrasada e o telefone não para de tocar com cobranças. Como você prioriza?",
     options: [
         {
-            text: "'Calma! Deixa comigo. Eu pego essa pilha e vou conferir um por um. Se tiver um contrato com a vírgula errada ou um empenho sem a reserva de ata correta, eu vou achar. Nada passa por mim sem estar 100% legal!'",
+            text: "'Primeiro resolvo os R$ 0,15. Preciso auditar cada lançamento - a precisão contábil é fundamental para todas as outras decisões.'",
             letter: "a"
         },
         {
-            text: "'Me dá essa pilha! Senta aí e cronometra. Eu vou liquidar tudo isso em duas horas. Pode vir empenho, pode vir contrato, eu sou a 'linha de produção'. Meu negócio é fazer a fila andar e limpar essa mesa!'",
+            text: "'Foco em liquidar o máximo de processos possível. Os R$ 0,15 podem ser um ajuste posterior - o importante é o fluxo não parar.'",
             letter: "b"
         },
         {
-            text: "'Pelo amor de Deus, me dá só os processos do Bolsa Aluguel e daquela ONG. É inadmissível eles não receberem em dia por causa da nossa bagunça. O resto pode esperar, mas o social é prioridade!'",
+            text: "'Atendo primeiro os fornecedores da Saúde e Assistência Social. Eles não podem ficar sem receber por causa de centavos.'",
             letter: "c"
         },
         {
-            text: "'Chefe, o problema não é a pilha, é o telefone. Deixa eu atender. Eu ligo pro secretário de Obras e resolvo aquele contrato 'enroscado', acalmo o fornecedor da Saúde e desenrolo essa confusão. Isso não é trabalho, é diplomacia.'",
+            text: "'Organizo a equipe: uns focam na conciliação, outros nos pagamentos. O importante é a comunicação e coordenação do time.'",
             letter: "d"
         }
     ]
-}, 
+},
     {
         id: 3,
         title: "3. Crise no Condomínio",
@@ -119,29 +119,29 @@ const questions = [
     ]
 },            
                 
-    {
-        id: 6,
-        title: "6. Trabalho em Grupo da Faculdade",
-        scenario: "Na divisão de tarefas, você:",
-        options: [
-            {
-                text: "Lê as normas ABNT, controla quem fez o quê, formata o documento final e calcula a nota que cada um merece com base no esforço.",
-                letter: "a"
-            },
-            {
-                text: "Vira a noite fazendo a pesquisa 'pesada', monta os protótipos, resolve a parte prática e garante que o trabalho 'funciona'.",
-                letter: "b"
-            },
-            {
-                text: "Tenta incluir o colega que ninguém gosta, se preocupa se o tema é socialmente relevante e oferece ajuda a quem está atrasado.",
-                letter: "c"
-            },
-            {
-                text: "Se oferece para apresentar. Você sabe que seu carisma vai vender a ideia, mesmo que o conteúdo tenha sido feito 30 minutos antes.",
-                letter: "d"
-            }
-        ]
-    },
+   {
+    id: 6,
+    title: "6. Trabalho em Grupo da Faculdade",
+    scenario: "Na divisão de tarefas do trabalho final, você:",
+    options: [
+        {
+            text: "Assume a formatação e normas ABNT. Controla prazos e garante que tudo esteja dentro das regras.",
+            letter: "a"
+        },
+        {
+            text: "Foca na pesquisa prática e desenvolvimento do conteúdo principal. Gosta de garantir que o trabalho 'funcione'.",
+            letter: "b"
+        },
+        {
+            text: "Procura integrar todos os membros, ajuda quem está com dificuldade e garante que ninguém fique para trás.",
+            letter: "c"
+        },
+        {
+            text: "Coordena as reuniões, facilita a comunicação do grupo e se oferece para sintetizar e apresentar as ideias.",
+            letter: "d"
+        }
+    ]
+},
     {
     id: 7,
     title: "7. O Caos da Conciliação Bancária na Tesouraria",
@@ -238,22 +238,22 @@ const questions = [
     {
     id: 11,
     title: "11. O Colega Novato está com Dificuldades",
-    scenario: "Um novo funcionário entra na sua repartição. Ele parece visivelmente perdido e sobrecarregado na primeira semana. Qual sua reação mais provável?",
+    scenario: "Um novo funcionário parece sobrecarregado na primeira semana. Como você ajuda?",
     options: [
         {
-            text: "'Vou verificar se ele recebeu o Manual de Procedimentos Internos. Se ele seguir o manual, vai se achar. O processo existe para isso.'",
+            text: "'Mostro onde estão os manuais e procedimentos. Acredito que a estrutura correta dá autonomia para ele aprender.'",
             letter: "a"
         },
         {
-            text: "'Ele precisa aprender na marra. Eu vou passar mais duas tarefas para ele. É o melhor jeito de forçá-lo a aprender rápido e ver se ele aguenta o tranco.'",
+            text: "'Dou tarefas práticas desafiadoras. Aprendi que a melhor forma é colocando a mão na massa desde o início.'",
             letter: "b"
         },
         {
-            text: "'Eu chamo ele para tomar um café. Pergunto como ele está se sentindo, digo que o começo é assim mesmo e me coloco à disposição para ajudar. O mais importante é ele se sentir acolhido.'",
+            text: "'Conversamos sobre as dificuldades. Ofereço apoio emocional e me coloco à disposição para dúvidas.'",
             letter: "c"
         },
         {
-            text: "'Eu apresento ele para o pessoal-chave de outros setores. O importante é ele fazer networking e entender quem manda em cada área para conseguir desenrolar o trabalho dele.'",
+            text: "'Apresento às pessoas certas em cada setor. Acredito que bons contatos facilitam a adaptação.'",
             letter: "d"
         }
     ]
