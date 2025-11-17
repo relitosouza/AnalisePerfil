@@ -161,6 +161,15 @@ h1 {
     color: #495057;
     font-weight: 500;
 }
+.option-text a {
+    color: #3498db;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.option-text a:hover {
+    color: #2980b9;
+}
 
 .option-letter {
     display: inline-block;
