@@ -23,29 +23,30 @@ const questions = [
             }
         ]
     },
-    {
-        id: 2,
-        title: "2. Filme de Desastre",
-        scenario: "Enquanto assiste a um filme de desastre global, sua maior irritação é:",
-        options: [
-            {
-                text: "'Quem aprovou essa obra sem laudo? Onde está o parecer jurídico para evacuação? Qual o orçamento de crise? Isso é um caos de compliance!'",
-                letter: "a"
-            },
-            {
-                text: "'Esse plano de fuga é ridículo. Era só ter pego a rota B, reforçado aquela ponte e usado o equipamento X. Amadorismo logístico total.'",
-                letter: "b"
-            },
-            {
-                text: "'Meu Deus, e os hospitais? E as crianças perdidas? Ninguém pensou num protocolo de triagem e assistência social para os sobreviventes?'",
-                letter: "c"
-            },
-            {
-                text: "'O discurso do presidente foi péssimo. Faltou um porta-voz para acalmar a mídia, evitar o pânico e gerenciar a imagem do governo.'",
-                letter: "d"
-            }
-        ]
-    },
+    
+             {
+    id: 2,
+    title: "2. O Apocalipse de Fim de Mês na Contabilidade",
+    scenario: "É dia 25, fim do mês. A mesa do chefe está empilhada de processos para pagar e o telefone não para de tocar. Ele grita: 'SOCORRO! A fila de empenho e liquidação está gigante e o pessoal do Bolsa Aluguel está ligando!' Qual é a sua reação imediata?",
+    options: [
+        {
+            text: "'Calma! Deixa comigo. Eu pego essa pilha e vou conferir um por um. Se tiver um contrato com a vírgula errada ou um empenho sem a reserva de ata correta, eu vou achar. Nada passa por mim sem estar 100% legal!'",
+            letter: "a"
+        },
+        {
+            text: "'Me dá essa pilha! Senta aí e cronometra. Eu vou liquidar tudo isso em duas horas. Pode vir empenho, pode vir contrato, eu sou a 'linha de produção'. Meu negócio é fazer a fila andar e limpar essa mesa!'",
+            letter: "b"
+        },
+        {
+            text: "'Pelo amor de Deus, me dá só os processos do Bolsa Aluguel e daquela ONG. É inadmissível eles não receberem em dia por causa da nossa bagunça. O resto pode esperar, mas o social é prioridade!'",
+            letter: "c"
+        },
+        {
+            text: "'Chefe, o problema não é a pilha, é o telefone. Deixa eu atender. Eu ligo pro secretário de Obras e resolvo aquele contrato 'enroscado', acalmo o fornecedor da Saúde e desenrolo essa confusão. Isso não é trabalho, é diplomacia.'",
+            letter: "d"
+        }
+    ]
+}, 
     {
         id: 3,
         title: "3. Crise no Condomínio",
