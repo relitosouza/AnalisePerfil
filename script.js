@@ -142,28 +142,28 @@ const questions = [
         ]
     },
     {
-        id: 7,
-        title: "7. Reação ao Trânsito Caótico",
-        scenario: "Preso num engarrafamento gigante, você pensa:",
-        options: [
-            {
-                text: "'Qual o impacto econômico disso? Quantas horas/homem estão sendo perdidas? Onde está o parecer jurídico sobre o rodízio?'",
-                letter: "a"
-            },
-            {
-                text: "'Claramente o problema é de engenharia. Essa faixa é muito estreita, o semáforo é dessincronizado e o asfalto é péssimo.'",
-                letter: "b"
-            },
-            {
-                text: "'E a ambulância que precisa passar? E os pais que não vão chegar a tempo de buscar os filhos na creche? Isso é um problema de saúde pública.'",
-                letter: "c"
-            },
-            {
-                text: "'A rádio não está informando direito, o app de trânsito está atrasado e ninguém da prefeitura apareceu para dar uma satisfação. Falta comunicação!'",
-                letter: "d"
-            }
-        ]
-    },
+    id: 7,
+    title: "7. O Caos da Conciliação Bancária na Tesouraria",
+    scenario: "É o dia 10 e a Tesouraria está em pânico. A conciliação bancária do mês passado não fecha por causa de centavos, a receita própria ainda não foi lançada e o contador-chefe está de mau humor. Qual seu papel nessa cena?",
+    options: [
+        {
+            text: "'Parem tudo. A conciliação não fecha por R$ 0,15? Eu vou achar! Deixem comigo, vou auditar extrato por extrato, lançamento por lançamento, até esses R$ 0,15 aparecerem. A precisão é inegociável.'",
+            letter: "a"
+        },
+        {
+            text: "'Enquanto vocês procuram os centavos, me deem a pilha de receitas para lançar. Eu sou uma máquina. Vou 'bater' todos esses lançamentos no sistema antes do almoço e já começo a adiantar os pagamentos.'",
+            letter: "b"
+        },
+        {
+            text: "'Pessoal, foco! Enquanto a gente caça R$ 0,15, o pagamento do Fundo da Saúde está parado. Vamos priorizar a conciliação da conta da Saúde primeiro? Os fornecedores do hospital precisam receber.'",
+            letter: "c"
+        },
+        {
+            text: "'O problema não são os R$ 0,15, é o sistema do banco que é horrível! Deixa eu ligar para o nosso gerente do banco e para o TI. Vou 'desenrolar' uma integração automática. Não dá para fazer esse trabalho manual todo mês.'",
+            letter: "d"
+        }
+    ]
+},
     {
         id: 8,
         title: "8. O que mais te irrita numa Fila de Banco?",
