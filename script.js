@@ -70,29 +70,30 @@ const questions = [
             }
         ]
     },
+    
     {
-        id: 4,
-        title: "4. Planejando as Férias do Grupo",
-        scenario: "Vocês decidiram viajar juntos. Qual seu papel?",
-        options: [
-            {
-                text: "O Tesoureiro. Envia a planilha detalhada de custos (passagem, hotel, comida) e o cronograma dia a dia, com prazo para pagamento do 'sinal'.",
-                letter: "a"
-            },
-            {
-                text: "O Logístico. É quem aluga o carro, traça a rota no mapa, verifica as condições da estrada e se encarrega da mala de ferramentas (e do kit de primeiros socorros).",
-                letter: "b"
-            },
-            {
-                text: "O 'Cuidador'. É quem pesquisa restaurantes que agradam a todos, atividades para as crianças e garante que o ritmo da viagem seja bom para os mais velhos.",
-                letter: "c"
-            },
-            {
-                text: "O Relações Públicas. É quem cria o grupo 'Férias 2026!', faz a reserva no AirBnb, e fica 'hypando' a viagem por 6 meses com memes e fotos.",
-                letter: "d"
-            }
-        ]
-    },
+    id: 4,
+    title: "4. Planejando as Férias do Grupo",
+    scenario: "Vocês decidiram viajar juntos. Qual seu papel na organização?",
+    options: [
+        {
+            text: "'Eu sou quem lê as 'letras miúdas'. Deixa comigo a comparação das 5 cotações de hotel, a verificação do que o seguro-viagem realmente cobre e a conferência da validade de todos os documentos.'",
+            letter: "a"
+        },
+        {
+            text: "'Eu sou o 'resolvedor'. Em 30 minutos, eu já comprei as passagens de todo mundo, já aluguei o carro e já baixei o mapa offline. Meu negócio é fazer acontecer, não ficar em reunião de planejamento.'",
+            letter: "b"
+        },
+        {
+            text: "'Eu sou o 'pesquisador de clima'. Eu pergunto quem prefere praia ou montanha, quem tem restrição alimentar e me preocupo se todos estão felizes com o destino. O importante é a harmonia do grupo.'",
+            letter: "c"
+        },
+        {
+            text: "'Eu sou o 'relações públicas' da viagem. Eu 'vendo' o destino para o grupo com um roteiro 'instagramável', faço a reserva naquele restaurante badalado e já crio o grupo no WhatsApp para o 'esquenta'.'",
+            letter: "d"
+        }
+    ]
+},           
     
     {
     id: 5,
