@@ -47,29 +47,29 @@ const questions = [
         }
     ]
 },
-    {
-        id: 3,
-        title: "3. Crise no Condomínio",
-        scenario: "O elevador principal quebra na sexta-feira à noite. Você:",
-        options: [
-            {
-                text: "Imediatamente pede ao síndico a ata da última assembleia, o contrato de manutenção e exige a abertura de 3 cotações emergenciais para o conserto.",
-                letter: "a"
-            },
-            {
-                text: "Desce na casa de máquinas, identifica que a peça Y queimou, liga para um conhecido que mexe com isso e tenta resolver antes da meia-noite.",
-                letter: "b"
-            },
-            {
-                text: "Organiza um mutirão de ajuda para a Dona Zilda do 8º andar e para a mãe com carrinho de bebê do 5º, garantindo que eles tenham ajuda para subir.",
-                letter: "c"
-            },
-            {
-                text: "Cria um 'Comunicado Oficial' no grupo, acalma os vizinhos revoltados e marca uma reunião com café no salão de festas para 'alinhar expectativas'.",
-                letter: "d"
-            }
-        ]
-    },
+   {
+    id: 3,
+    title: "3. Crise no Condomínio",
+    scenario: "O elevador principal quebra num final de semana. Como você contribui para a solução?",
+    options: [
+        {
+            text: "'Verifico o contrato de manutenção e as garantias. Organizo a documentação necessária para o conserto dentro da legalidade.'",
+            letter: "a"
+        },
+        {
+            text: "'Avalio o problema e contato técnicos especializados. Meu foco é conseguir o conserto mais rápido possível.'",
+            letter: "b"
+        },
+        {
+            text: "'Organizo um sistema de ajuda para idosos e pessoas com mobilidade reduzida. O bem-estar dos mais vulneráveis é prioridade.'",
+            letter: "c"
+        },
+        {
+            text: "'Comunico a situação a todos os moradores, coordeno as informações e mantenho o grupo unido enquanto a solução é encontrada.'",
+            letter: "d"
+        }
+    ]
+},
     
     {
     id: 4,
