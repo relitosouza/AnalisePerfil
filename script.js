@@ -77,23 +77,23 @@ const questions = [
     scenario: "Vocês decidiram viajar juntos. Qual seu papel na organização?",
     options: [
         {
-            text: "'Eu sou quem lê as 'letras miúdas'. Deixa comigo a comparação das 5 cotações de hotel, a verificação do que o seguro-viagem realmente cobre e a conferência da validade de todos os documentos.'",
+            text: "Cuido da parte burocrática: comparo hospedagens, verifico seguros e documento tudo. Gosto de garantir que tudo esteja regularizado.",
             letter: "a"
         },
         {
-            text: "'Eu sou o 'resolvedor'. Em 30 minutos, eu já comprei as passagens de todo mundo, já aluguei o carro e já baixei o mapa offline. Meu negócio é fazer acontecer, não ficar em reunião de planejamento.'",
+            text: "Foco na parte prática: reservo passagens, organizo o transporte e traço o roteiro. Gosto de ver as coisas saindo do papel.",
             letter: "b"
         },
         {
-            text: "'Eu sou o 'pesquisador de clima'. Eu pergunto quem prefere praia ou montanha, quem tem restrição alimentar e me preocupo se todos estão felizes com o destino. O importante é a harmonia do grupo.'",
+            text: "Pesquiso atividades que agradem a todos e me preocupo com o conforto do grupo. Quero que cada um se sinta incluído.",
             letter: "c"
         },
         {
-            text: "'Eu sou o 'relações públicas' da viagem. Eu 'vendo' o destino para o grupo com um roteiro 'instagramável', faço a reserva naquele restaurante badalado e já crio o grupo no WhatsApp para o 'esquenta'.'",
+            text: "Animo o grupo com ideias divertidas, crio a comunicação da viagem e cuido para que o clima seja sempre positivo.",
             letter: "d"
         }
     ]
-},           
+},
     
     {
     id: 5,
