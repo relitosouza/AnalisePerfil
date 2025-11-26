@@ -9,7 +9,7 @@
 
 Um sistema interativo para análise de perfis profissionais baseado em situações cotidianas e cultura pop.
 
-[🚀 **Acessar Projeto**](#-como-executar) • [📊 **Ver Demo**](#) • [🐛 **Reportar Bug**](https://github.com/seu-usuario/analise-perfil-profissional/issues)
+[🚀 **Acessar Projeto**](#-como-executar) • [📊 **Ver Demo**](https://analise-perfil-kappa.vercel.app/) • [🐛 **Reportar Bug**](https://github.com/seu-usuario/analise-perfil-profissional/issues)
 
 </div>
 
